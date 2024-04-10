@@ -1,0 +1,84 @@
+﻿.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    background-color: rgb(0, 157, 255);
+}
+
+.menu-item {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #f00f0f;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 200px;
+    padding: 5px;
+}
+
+.search-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.split {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 33.33%;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.right {
+    width: 66.67%;
+    padding: 10px;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+    .product-list li {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        padding-left: 1cm;
+    }
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .form-row label {
+        flex-basis: 150px;
+        margin-right: 10px;
+    }
+
+.tick-container {
+    display: inline-block;
+    margin-right: 10px;
+}
